@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    margin-top: 1em;
+    background-color: white;
+    max-width: 30%;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.star{
+    color: red;
+}
+
+h1{
+    font-size: 1.5em;
+    padding: 1em;
+    color: #323232;
+}
+
+h2{
+    font-size: 1em;
+    color: #969696;
+}
+
+.name, .email, .password, .role, .bio, .check, .submit{
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+label{
+    color: #323232;
+    font-weight: 700;
+}
+
+.name input, .email input, .password input, .role select, .bio textarea{
+    margin-top: 0.5em;
+    max-width: 30em;
+    height: 3em;
+    border-radius: 0.5em;
+    border:1px solid rgb(215, 216, 228);
+    padding-left: 1em;
+}
+
+.role select{
+    color: #676767;
+    font-weight: 700;
+}
+
+h3{
+    margin-top: 0.5em;
+    font-size: 0.85em;
+    color: #969696;
+}
+
+
+.bio textarea{
+    height: 7em;
+    font-family: monospace;
+    padding: 1em;
+    font-weight: 700;
+}
+
+.check label{
+    color: #676767;
+    padding: 0.5em;
+    
+}
+
+button{
+    background-color: rgb(75, 131, 215);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    max-width: 30em;
+    margin-bottom: 3em;
+    border-width: 0;
+}
+
+@media(max-width:746px){
+    .container{
+        max-width: 100%;
+    }
+}
